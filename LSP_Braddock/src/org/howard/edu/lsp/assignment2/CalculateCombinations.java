@@ -25,8 +25,8 @@ public class CalculateCombinations {
 						temp = input[j] + input[i];
 						if (temp == sum) {
 							int[] opt = new int[2];
-				            opt[0] = input[i];
-				            opt[1] = input[j];
+				            opt[0] = i;
+				            opt[1] = j;
 				            System.out.print(Arrays.toString(input) + "\n");
 						}
 					}
@@ -34,9 +34,9 @@ public class CalculateCombinations {
 						temp = input[i] + input[j] + input[k];
 						if (temp == sum) {
 							int [] t = new int [3];
-							t[0] = input[i];
-							t[1] = input[j];
-							t[2] = input[k];
+							t[0] = i;
+							t[1] = j;
+							t[2] = k;
 							System.out.print(Arrays.toString(t) + "\n");
 						}
 					}
