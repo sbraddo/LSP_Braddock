@@ -1,3 +1,7 @@
+/**
+ * @author sarabraddock
+ */
+
 package org.howard.edu.lsp.midterm.problem1;
 import java.util.ArrayList;
 

@@ -1,3 +1,7 @@
+/**
+ * @author sarabraddock
+ */
+
 package org.howard.edu.lsp.midterm.problem1;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,7 +11,9 @@ import static org.junit.Assert.assertEquals;
 
 
 class VotingMachineTest {
-
+	/**
+	 * testing Sum method 
+	 */
 	@Test
 	void testSum() {
 		VotingMachine testVM = new VotingMachine();
@@ -20,6 +26,9 @@ class VotingMachineTest {
 		assertEquals(45, testVM.sum());
 	}
 	
+	/**
+	 * testing getVotes method 
+	 */
 	@Test
 	void testGetVotes() {
 		VotingMachine testVM = new VotingMachine();
