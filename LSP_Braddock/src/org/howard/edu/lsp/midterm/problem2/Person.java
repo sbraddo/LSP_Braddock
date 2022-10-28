@@ -8,11 +8,11 @@ public class Person {
 	private int age; 
 	private String socialSecurityNumber;
 	
-	public Person(String nameP,  String sSN, int ageP) {
+	public Person(String name,  String socialSecurityNumber, int age) {
 		// initialize private variables
-		name = nameP;
-		age = ageP;
-		socialSecurityNumber = sSN;
+		this.name = name;
+		this.age = age;
+		this.socialSecurityNumber = socialSecurityNumber;
 	}
 	
 	public String toString() {
