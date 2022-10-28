@@ -56,6 +56,8 @@ public class Driver {
 		set1.clear();
 		System.out.println("The value of set1 after being cleared is: " + set1.toString());
 		System.out.println("Set1 is empty is: " + set1.isEmpty());
+		//System.out.println("Largest? " + set1.largest());
+//		System.out.println("Largest? " + set1.smallest());
 		
 		//testing .intersection()
 		set1.add(1);

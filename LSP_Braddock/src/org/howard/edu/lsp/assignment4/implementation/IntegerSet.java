@@ -73,6 +73,9 @@ public class IntegerSet {
 	
 	// returns the largest item in the set 
 	public int largest() {
+		if (set.size() == 0) {
+			throw new ArrayIndexOutOfBoundsException("IntegerSetException; empty Integer set");
+		}
 		int max = 0;
 		int idx = 0;
 		while (set.size() > idx) {
