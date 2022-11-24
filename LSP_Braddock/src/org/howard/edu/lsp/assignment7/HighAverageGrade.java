@@ -3,7 +3,6 @@
  */
 
 package org.howard.edu.lsp.assignment7;
-
 import java.util.ArrayList;
 
 public class HighAverageGrade implements AverageStrategy {

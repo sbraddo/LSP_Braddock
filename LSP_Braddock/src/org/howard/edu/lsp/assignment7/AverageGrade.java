@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 
 public class AverageGrade implements AverageStrategy {
+	
 	public int compute(ArrayList<Integer> grades) throws EmptyListException{
 		if (grades.size() == 0) {
 			throw new EmptyListException("List is empty!");

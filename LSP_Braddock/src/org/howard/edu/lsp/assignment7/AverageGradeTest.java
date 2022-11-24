@@ -1,9 +1,7 @@
 package org.howard.edu.lsp.assignment7;
 
 import static org.junit.jupiter.api.Assertions.*;
-//import org.howard.edu.lsp.assignment7.AverageGrade;
 import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
